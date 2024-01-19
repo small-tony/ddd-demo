@@ -5,8 +5,8 @@ spring:
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
     username: root
-    password: root
-    url: jdbc:mysql://127.0.0.1:3306/user?autoReconnect=true&autoReconnectForPools=true&useUnicode=true&characterEncoding=utf8&useSSL=false&allowMultiQueries=true&allowPublicKeyRetrieval=true&serverTimezone=GMT%2B8&rewriteBatchedStatements=true
+    password: lhdbmysql-e3ru6zc4
+    url: jdbc:mysql://sh-cynosdbmysql-grp-ps3numnk.sql.tencentcdb.com:29404/user?autoReconnect=true&autoReconnectForPools=true&useUnicode=true&characterEncoding=utf8&useSSL=false&allowMultiQueries=true&allowPublicKeyRetrieval=true&serverTimezone=GMT%2B8&rewriteBatchedStatements=true
     driver-class-name: com.mysql.cj.jdbc.Driver
     druid:
       initial-size: 5
